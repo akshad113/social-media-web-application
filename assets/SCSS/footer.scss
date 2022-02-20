@@ -1,0 +1,19 @@
+footer{
+    display: flex;
+    align-items: center;
+    background-color: rgb(93, 90, 90);
+    h1{
+       margin-left: 1rem;
+       margin-right: 1rem;
+       color: whitesmoke;
+    }
+    div{
+        display: flex;
+        flex-direction: column;
+       
+        a{
+            text-decoration: none;
+            color: whitesmoke;
+        }
+    }
+}

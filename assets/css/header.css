@@ -1,0 +1,23 @@
+header {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #188be9;
+  height: 8.9%;
+  align-items: center;
+  box-shadow: 2px 2px 10px black; }
+  header h1 {
+    color: whitesmoke;
+    margin-left: 1rem; }
+  header ul {
+    display: flex; }
+    header ul li {
+      margin: auto 5px;
+      list-style: none; }
+      header ul li a {
+        text-decoration: none;
+        color: whitesmoke;
+        font-weight: 500;
+        font-size: 1.3rem;
+        font-family: sans-serif;
+        margin-right: 1rem; }
