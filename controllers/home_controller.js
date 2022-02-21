@@ -12,7 +12,7 @@ module.exports.home = function(req,res){
     //populate the user
     Post.find({}).populate('user').exec(function(err,posts){
         return res.render('home',{
-            title:'Codeial | Home',
+            title:' Home',
             posts : posts,
         });
     });
