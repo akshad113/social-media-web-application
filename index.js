@@ -9,7 +9,7 @@ const passport = require('passport');
 const passportLocal = require('./config/passport-local-statergy')
 const MongoStore = require('connect-mongo')(session);
 const sassMiddleware = require('node-sass-middleware');
- 
+  
 
 app.use(sassMiddleware({
     src:'./assets/SCSS',
@@ -30,7 +30,7 @@ app.set('layout extractStyles', true);
 app.set('layout extractScripts', true);
 
 
-
+ 
 //set up the view engine
 app.set('view engine','ejs');
 app.set('views','./views');
