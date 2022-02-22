@@ -1,19 +1,18 @@
-footer{
-    display: flex;
-    align-items: center;
-    background-color: rgb(93, 90, 90);
-    h1{
-       margin-left: 1rem;
-       margin-right: 1rem;
-       color: whitesmoke;
+#layout-footer{
+    color: white;
+    a{
+        color: white;
+        text-decoration: none;
     }
-    div{
-        display: flex;
-        flex-direction: column;
-       
-        a{
-            text-decoration: none;
-            color: whitesmoke;
+
+    background: grey;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: flex-start;
+
+    .footer-nav{
+        ul{
+            list-style: none;
         }
     }
 }
